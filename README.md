@@ -15,7 +15,9 @@ data.head()
 ![스크린샷 2024-02-07 004216](https://github.com/pmonj9841/Summarizing-Clothes-Data/assets/61530808/30c7a21b-af44-4736-92b0-c2f0274f57be)
 
 
-### How many clothes have been sold for each brand?
+
+
+## How many clothes have been sold for each brand?
 ```python
 # Count the values
 Brand_counts = data['Brand'].value_counts()
@@ -25,7 +27,9 @@ print(Brand_counts.head(10))
 ![스크린샷 2024-02-07 010802](https://github.com/pmonj9841/Summarizing-Clothes-Data/assets/61530808/05c82a50-2461-485f-a5f4-1f3e9dd63dbd)
 
 
-### How many clothes have been sold in each site?
+
+
+## How many clothes have been sold in each site?
 ```python
 # Make the values from the same sites identical
 for index, a in enumerate(data['Site']):
@@ -53,13 +57,15 @@ plt.ylabel('Number of clothes sold')
 ![스크린샷 2024-02-07 011127](https://github.com/pmonj9841/Summarizing-Clothes-Data/assets/61530808/f66f18a8-ac60-4e20-900a-7ecfed10e673)
 
 
-### Exploring data in spreadsheet
+
+
+## Exploring data in spreadsheet
 변경된 데이터를 내보내어 스프레트시트의 피벗테이블을 통해 더 쉽게 데이터를 살펴볼 수 있도록 하였다.
 
 ```python
 # Export data
 data.to_csv('crawl_modified.csv', index=False)
 ```
-![스크린샷 2024-02-07 011601](https://github.com/pmonj9841/Summarizing-Clothes-Data/assets/61530808/f3c4da47-5452-4e92-9d15-d86b8374a636)
+<img src="![스크린샷 2024-02-07 011601](https://github.com/pmonj9841/Summarizing-Clothes-Data/assets/61530808/f3c4da47-5452-4e92-9d15-d86b8374a636)" width="150" height="150">
 
 ![스크린샷 2024-02-07 011519](https://github.com/pmonj9841/Summarizing-Clothes-Data/assets/61530808/89eb657c-6431-4d55-bf1e-b24bea02a22d)
