@@ -66,6 +66,4 @@ Let's export the modified data to use the pivot table in a spreadsheet; this wil
 # Export data
 data.to_csv('crawl_modified.csv', index=False)
 ```
-![스크린샷 2024-02-07 011601](https://github.com/pmonj9841/Summarizing-Clothes-Data/assets/61530808/f3c4da47-5452-4e92-9d15-d86b8374a636)
-
-![스크린샷 2024-02-07 011519](https://github.com/pmonj9841/Summarizing-Clothes-Data/assets/61530808/89eb657c-6431-4d55-bf1e-b24bea02a22d)
+![excel_image_clothes_data](https://github.com/pmonj9841/Summarizing-Clothes-Data/assets/61530808/43c26396-d284-4c6f-8e09-5fab2ac95cc4)
