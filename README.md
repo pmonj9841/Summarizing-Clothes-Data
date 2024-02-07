@@ -1,5 +1,5 @@
-# Summarizing-Clothes-Data
-'뉴엔*'회사의 데이터를 정리해달라는 부탁을 받았다. 이 회사는 한국 패션사이트에서 판매되는 옷들을 외국인들이 쉽게 둘러보고 구매할 수 있도록 하는 플랫폼을 제공하는 일을 하고 있다. 이 프로젝트에서 사용할 데이터는 고객들이 구매한 제품의 모델명, 브랜드, 출처 사이트를 담고 있다. 각 브랜드와 사이트별로 얼만큼의 상품이 판매되었는지를 파악할 수 있도록 데이터를 정리하였고, 이후에도 유사한 작업을 할 수 있도록 코드를 제공하였다.
+# Summarizing Clothes Data
+I was asked to organize data from a company, 'NewN*.' This company is providing a platform where foreigners can look through and purchase clothes from Korean websites. Data used in this project includes model names, their brands, and sources. I organized data so that they could see how many products had been sold for each brand and on each site.
 
 
 ```python
@@ -29,7 +29,7 @@ print(Brand_counts.head(10))
 
 
 
-## How many clothes have been sold in each site?
+## How many clothes have been sold on each site?
 ```python
 # Make the values from the same sites identical
 for index, a in enumerate(data['Site']):
@@ -59,8 +59,8 @@ plt.ylabel('Number of clothes sold')
 
 
 
-## Exploring data in spreadsheet
-변경된 데이터를 내보내어 스프레트시트의 피벗테이블을 통해 더 쉽게 데이터를 살펴볼 수 있도록 하였다.
+## Exploring data in a spreadsheet
+Let's export the modified data to use the pivot table in a spreadsheet; this will allow us to look through the information more conveniently.
 
 ```python
 # Export data
